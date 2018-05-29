@@ -11,7 +11,7 @@ public interface DemoDao {
 
     /**
      * 查询所有
-     *
+     * 这边不建议这么写，不是很方便
      * @return
      */
     @Select("select id,name from demo")
